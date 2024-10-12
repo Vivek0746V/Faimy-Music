@@ -1,0 +1,131 @@
+ /* General styling */
+ body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #ff4081;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4081;
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.artist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 480px) {
+    header{
+        width: fit-content;
+    }
+    header h1{
+        font-size: 1.8em;
+    }
+    iframe{
+        width: auto;
+        height: auto;
+    }
+    .social-icons>a>img{
+        width: 40px;
+        /* height: 60px; */
+    }
+    footer{
+        padding: 10px;
+    }
+}
+
+/* Marquee styling */
+.announcement {
+    font-size: 1.2em;
+    background-color: #222;
+    color: #ff4081;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#tour-dates {
+    list-style: none;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons img {
+    border-radius: 50px;
+    width: 70px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+section>iframe {
+    margin: 9px;
+    border: 2px solid #111;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
